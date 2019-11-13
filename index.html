@@ -12,6 +12,12 @@
 	<label for="mistakes">Mistakes</label>
 	<input type="text" id="mistakes" class="mistakes" disabled value="0">
 	<br>
+	<h4>Click Mode</h4>
+	<label for="radio-fill">Fill</label>
+	<input checked onclick="changeClickMode(true)" type="radio" id="radio-fill" name="radio-click-mode">
+	<label for="radio-x">X</label>
+	<input onclick="changeClickMode(false)" type="radio" id="radio-x" name="radio-click-mode">
+	<br>
 	<br>
 </body>
 </html> 
